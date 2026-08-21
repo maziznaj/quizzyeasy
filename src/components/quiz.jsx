@@ -10,7 +10,11 @@ function Quiz(){
         question: "Which hook stores changing data?", 
          options: ["useEffect", "useState", "useRef"],
          answer: "useState" 
-        }, 
+        },
+         {question: "React is a JavaScript library for building ___" ,
+         options: ["Database", "user interface ", "design platform"],
+         answer: "user interface " 
+        },  
         ]
         const [current, setCurrent] = useState(0);
         const [score, setScore] = useState(0);
