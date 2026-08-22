@@ -2,7 +2,7 @@ import { useState } from "react";
 function Quiz(){
     const questions = [ 
         { 
-        question: "What does JSX mean ?",
+        question: "What does JSX short for??",
          options: ["JavaScript XML", "Java Syntax Extension", "JSON XML"], 
          answer: "JavaScript XML" 
         }, 
