@@ -57,7 +57,7 @@ function Quiz(){
        return(
          <div className="flex flex-col items-center gap-4 p-8">
          <p className="text-sm text-gray-500">Question {current + 1} of {questions.length}</p> 
-         <h2 className="text-2xl font-bold">{q.question}</h2>
+         <h2 className="text-2xl font-bold">{q.qeustion}</h2>
 
          <div className="flex flex-col gap-2 w-64">
           {q.options.map((option) => (
