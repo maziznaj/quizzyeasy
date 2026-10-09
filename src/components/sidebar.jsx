@@ -21,9 +21,9 @@ function Navbar() {
       {/* REACT: only show this block if isOpen is true */}
       {isOpen && (
         <div className="flex gap-6">
-          <a href="#" className="hover:text-gray-300">Home</a>
-          <a href="#" className="hover:text-gray-300">Profile</a>
-          <a href="#" className="hover:text-gray-300">Settings</a>
+          <a href="/javascript">JavaScript</a>
+          <a href="/java">Java Syntax</a>
+          <a href="/json">JSON</a>
         </div>
       )}
     </nav>
