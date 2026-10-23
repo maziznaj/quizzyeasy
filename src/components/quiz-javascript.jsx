@@ -1,5 +1,6 @@
 import { useState } from "react";
-function Quiz(){
+
+function QuizJs(){
     const questions = [ 
         { 
         question: "What does JSX short for??",
@@ -88,4 +89,4 @@ function Quiz(){
       
 }
 
-export default Quiz;
+export default QuizJs;
