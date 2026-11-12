@@ -21,6 +21,9 @@ jobs :
       - name: install dependecies
         run: npm ci
 
+      - name: Lint
+        run: npx eslint src
+        
       - name: run tests
         run: npm test -- --watchAll=false
 
