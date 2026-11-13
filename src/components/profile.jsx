@@ -11,13 +11,14 @@ export default function Profile() {
   const [activeTab, setActiveTab] = useState("Overview");
   const [editing, setEditing] = useState(false);
 
-  const [user, setUser] = useState({
-    name: "Alex Johnson",
-    username: "alex_dev",
-    email: "alex@example.com",
-    bio: "Learning, practicing, and improving my coding skills one quiz at a time.",
-  });
+ const savedUser = JSON.parse(localStorage.getItem("user") || "null");
 
+ const [user, setUser] = useState({
+  name: savedUser?.name || "Guest",
+  username: savedUser?.username || "guest",
+  email: savedUser?.email || "",
+  bio: "Learning, practicing, and improving my coding skills one quiz at a time.",
+ });
   const updateUser = (field, value) => {
     setUser((prev) => ({ ...prev, [field]: value }));
   };

@@ -1,3 +1,4 @@
+import Signup from "./components/signup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/home";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/lessons" element={<Lessons/>} />
         <Route path="/quiz-javascript" element={<QuizJs />} />
         <Route path="/quiz-docker" element={<QuizDocker />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>
   );
