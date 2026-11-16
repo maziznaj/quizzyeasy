@@ -20,7 +20,7 @@ function App() {
         <Route path="/lessons" element={<Lessons/>} />
         <Route path="/quiz-javascript" element={<QuizJs />} />
         <Route path="/quiz-docker" element={<QuizDocker />} />
-        <Route path="/signup" element={<Signuplogin />} />
+        <Route path="/Signuplogin" element={<Signuplogin />} />
       </Routes>
     </BrowserRouter>
   );
