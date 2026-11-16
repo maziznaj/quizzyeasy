@@ -7,7 +7,7 @@ import QuizJs from   "./components/quiz-docker";
 import QuizDocker from   "./components/quiz-javascript";
 
 import Profile from "./components/profile";
-import Signuplogin from "./components/Signuplogin";
+
 
 function App() {
   return (
