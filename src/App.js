@@ -1,4 +1,4 @@
-import Signup from "./components/signup";
+import Signuplogin from "./components/Signuplogin";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/home";
@@ -7,6 +7,7 @@ import QuizJs from   "./components/quiz-docker";
 import QuizDocker from   "./components/quiz-javascript";
 
 import Profile from "./components/profile";
+import Signuplogin from "./components/Signuplogin";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path="/lessons" element={<Lessons/>} />
         <Route path="/quiz-javascript" element={<QuizJs />} />
         <Route path="/quiz-docker" element={<QuizDocker />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup" element={<Signuplogin />} />
       </Routes>
     </BrowserRouter>
   );
